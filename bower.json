@@ -1,0 +1,19 @@
+{
+  "name": "suitcss-components-media",
+  "version": "0.1.0",
+  "homepage": "https://github.com/simonsmith/components-media",
+  "authors": [
+    "Simon Smith <me@simonsmith.io>"
+  ],
+  "description": "Media object component",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "component.json",
+    "test",
+    "tests"
+  ]
+}

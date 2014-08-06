@@ -1,0 +1,27 @@
+{
+  "name": "suitcss-components-media",
+  "version": "0.1.0",
+  "description": "Media object component",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+  "devDependencies": {
+    "suitcss-components-test": "*",
+    "suitcss-preprocessor": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonsmith/components-media.git"
+  },
+  "scripts": {
+    "build": "npm run setup && npm run preprocess",
+    "build-test": "npm run setup && npm run preprocess-test",
+    "preprocess": "suitcss index.css build/build.css",
+    "preprocess-test": "suitcss test/test.css build/test.css",
+    "setup": "npm install && mkdir -p build"
+  },
+  "author": "Simon Smith",
+  "license": "MIT"
+}

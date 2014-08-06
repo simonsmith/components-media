@@ -1,0 +1,10 @@
+{
+  "name": "suitcss-components-media",
+  "repo": "simonsmith/components-media",
+  "version": "0.1.0",
+  "styles": [
+    "lib/media.css"
+  ],
+  "author": "Simon Smith",
+  "license": "MIT"
+}

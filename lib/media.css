@@ -1,0 +1,44 @@
+/**
+ * Media object
+ */
+
+:root {
+  --Media-heading-margin: 0 0 5px;
+  --Media-object-gutter: 10px;
+}
+
+/**
+ * Clear floats
+ */
+
+.Media,
+.Media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/**
+ * For images and video, set to block
+ */
+
+.Media-object > * {
+  display: block;
+}
+
+.Media-heading {
+  margin: var(--Media-heading-margin);
+}
+
+/**
+ * Float the object to the left by default
+ */
+
+.Media-object {
+  float: left;
+  margin-right: var(--Media-object-gutter);
+}
+
+.Media--alignRight .Media-object {
+  float: right;
+  margin-left: var(--Media-object-gutter);
+}
