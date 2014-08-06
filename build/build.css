@@ -1,0 +1,43 @@
+/**
+ * Media object
+ */
+
+
+
+/**
+ * Clear floats
+ */
+
+.Media,
+.Media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/**
+ * For images and video, set to block
+ */
+
+.Media-object img,
+.Media-object video,
+.Media-object iframe {
+  display: block;
+}
+
+.Media-heading {
+  margin: 0 0 5px;
+}
+
+/**
+ * Float the object to the left by default
+ */
+
+.Media-object {
+  float: left;
+  margin-right: 10px;
+}
+
+.Media--alignRight .Media-object {
+  float: right;
+  margin-left: 10px;
+}

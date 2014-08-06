@@ -92,7 +92,9 @@
  * For images and video, set to block
  */
 
-.Media-object > * {
+.Media-object img,
+.Media-object video,
+.Media-object iframe {
   display: block;
 }
 
